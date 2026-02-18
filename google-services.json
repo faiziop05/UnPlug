@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "487352363512",
+    "project_id": "unplug-84000",
+    "storage_bucket": "unplug-84000.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487352363512:android:3f4a70f31fe31cb4eece0d",
+        "android_client_info": {
+          "package_name": "com.faiziop05.UnPlug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487352363512-3dvnst1fbjhij5oltd65loaf2knelb5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faiziop05.UnPlug",
+            "certificate_hash": "3d4774d60cbc26cf8de73ef0922db2d2c428c92c"
+          }
+        },
+        {
+          "client_id": "487352363512-grsoarj93e6dhii46rkft1lenotlmll5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faiziop05.UnPlug",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "487352363512-hqsjv2jg6ol8o917s38q6pcotao289ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faiziop05.UnPlug",
+            "certificate_hash": "f1a79a5384a016cf09370bf38b26c68ffd629d80"
+          }
+        },
+        {
+          "client_id": "487352363512-9je2ggba411clbmm4hcqvgtede264mr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd7C0a80qqVu2rSLDwn4sW0cmry2Npe7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487352363512-9je2ggba411clbmm4hcqvgtede264mr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

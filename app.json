@@ -4,26 +4,61 @@
     "slug": "UnPlug",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFFFFF"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon2.png",
+        "backgroundColor": "#FFFFFF"
       },
-      "edgeToEdgeEnabled": true
+      "versionCode": 7,
+      "edgeToEdgeEnabled": true,
+      "package": "com.faiziop05.UnPlug",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "SCHEDULE_EXACT_ALARM",
+        "USE_EXACT_ALARM",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon2.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "expo-web-browser",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraProguardRules": "-keep class com.revenuecat.purchases.** { *; }"
+          }
+        }
+      ]
+    ],
+    "jsEngine": "hermes",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "866fbfa8-8cbd-4c62-bc8d-9d0609bdeb5e"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/866fbfa8-8cbd-4c62-bc8d-9d0609bdeb5e"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
