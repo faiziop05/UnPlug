@@ -45,7 +45,8 @@
             "extraProguardRules": "-keep class com.revenuecat.purchases.** { *; }"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "jsEngine": "hermes",
     "extra": {
